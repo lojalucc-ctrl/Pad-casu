@@ -176,6 +176,18 @@ em,.it{font-style:italic}
   content:"";position:absolute;top:-5px;left:50%;width:10px;height:10px;margin-left:-5px;
   background:var(--white);border-radius:50%;
 }
+.item__price--consulta{
+  font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.14em;
+  opacity:.72;line-height:1.5;
+}
+.menu__obs{
+  display:flex;align-items:flex-start;gap:.7em;
+  margin:clamp(30px,4vw,46px) 0 0;padding-top:clamp(24px,3vw,34px);
+  border-top:1px solid var(--terra-22);
+  font-family:var(--cond);text-transform:uppercase;letter-spacing:.11em;
+  font-size:.8rem;line-height:1.6;opacity:.82;max-width:60ch;
+}
+.menu__obs .sparkle{width:.9em;height:.9em;flex:none;margin-top:.35em;opacity:.6}
 .hero__ring--2{inset:-17%;border-style:dashed;border-color:var(--white-14);animation-duration:80s;animation-direction:reverse}
 .hero__ring--2::after{display:none}
 @keyframes spin{to{transform:rotate(360deg)}}
